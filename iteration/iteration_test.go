@@ -3,7 +3,7 @@ package iteration
 import "testing"
 
 func TestRepeat(t *testing.T) {
-	repeated := Repeate("a")
+	repeated := Repeat("a")
 	expected := "aaaaa"
 
 	if repeated != expected {
