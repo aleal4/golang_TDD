@@ -19,5 +19,5 @@ func Search(dictionary map[string]string, word string) string {
 }
 
 func (d Dictionary) Add(word, definition string) {
-
+	d[word] = definition
 }
