@@ -32,3 +32,7 @@ func assertError(t testing.TB, got, want error) {
 		t.Errorf("got %q want %q given, %q", got, want, "test")
 	}
 }
+
+func TestAdd(t *testing.T) {
+
+}

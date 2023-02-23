@@ -4,7 +4,7 @@ import "errors"
 
 type Dictionary map[string]string
 
-var ErrNotFound = errors.New("coudl not find the word you were lookng for")
+var ErrNotFound = errors.New("could not find the word you were lookng for")
 
 func (d Dictionary) Search(word string) (string, error) {
 	definition, ok := d[word]
