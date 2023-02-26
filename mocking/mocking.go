@@ -1,1 +1,5 @@
-package mocking
+package main
+
+func main() {
+	Countdown()
+}
